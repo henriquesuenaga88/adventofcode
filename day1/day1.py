@@ -1,4 +1,4 @@
-def calcTaxiCabGeometry(filePath):
+def calcTaxiCabGeometryFrom(filePath):
     degrees = 0;
     coordinate_x = 0;
     coordinate_y = 0;
@@ -27,4 +27,4 @@ def calcTaxiCabGeometry(filePath):
     distance = abs(coordinate_x) + abs(coordinate_y);
     print "The distance is " + str(distance);
 
-if __name__ == '__main__': calcTaxiCabGeometry("input.txt")
+if __name__ == '__main__': calcTaxiCabGeometryFrom("input.txt")
